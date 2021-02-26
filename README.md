@@ -140,22 +140,34 @@ The signs are:
 
 Some of these signs are tricky ... 
 
+Reasons:
+* The priority road sign
+  * It is not a 100% complete sign
+* The wild animal crossing sign  
+  * It is not the same standard sign. It has different shape and colors.  
+* The slippery road sign
+  * It is - also - not the same standard sign. It has different shape and colors.
+
+
+
 
 #### 2. Performance on New Images
 
-| Image			        |     Prediction		| 
+| Image			            |     Prediction		    | 
 |:---------------------:|:---------------------:| 
 | Speed limit 30        | Speed limit 30        | 
-| Priority road   		| Priority road 	    |
-| Yield			        | Yield					|
-| Stop		            | Stop					|
-| No entry		        | No entry              |
+| Priority road   		  | Priority road 	      |
+| Yield			            | Yield					        |
+| Stop		              | Stop					        |
+| No entry		          | No entry              |
 | Slippery road         | Slippery road         |
 | Wild animals crossing | Wild animals crossing |
 | Ahead only            | Ahead only            |
 |                       |                       |
 
-(*5 of 8 correct = 62.5 %*)
+* *Comparing the testing set results from earlier vs. the new images we concluded the following:*
+  * Testing set accuracy = 95.1%  
+  * New images accuracy  = 62.5% *(5 of 8 correct)*
 
 #### **3. Softmax Probabilities**
 
